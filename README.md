@@ -1,4 +1,4 @@
-# Week1-Assignment1-Distance-Finder
+# Week1-InClass-Task1-Distance-Finder
 finding the distance between two random points in a rectangle
 
 Here's some pseudocode for this problem:
