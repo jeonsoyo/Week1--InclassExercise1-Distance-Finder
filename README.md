@@ -32,4 +32,4 @@ AverageDistance<-Distance/NumberOfSims
 cat("\nOur estimate of the expected distance between the two points is ",AverageDistance)
 
 # Better still, keep each distance in a vector and then plot a histogram of its distribution? Is the distribution from a family you recognize? (e.g. Normal, Poisson, Exponential,...?)
-```{r}
+```
