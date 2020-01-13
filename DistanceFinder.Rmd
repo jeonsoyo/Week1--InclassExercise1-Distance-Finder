@@ -2,7 +2,7 @@
 title: "DistanceFinder"
 author: "Paul M"
 date: "1/13/2020"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
