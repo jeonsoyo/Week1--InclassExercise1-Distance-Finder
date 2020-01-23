@@ -70,6 +70,9 @@ cat("\nOur estimate of the expected distance between the two points is ",Average
 ```
 
 It would beetter still to keep each distance in a vector and then plot a histogram of its distribution? 
+I'm not sure how to do this..
+
+
 Is the distribution from a family you recognize? (e.g. Normal, Poisson, Exponential,...?)
 Is there a theoretical answer to this problem?
 
