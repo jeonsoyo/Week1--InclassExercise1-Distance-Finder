@@ -52,13 +52,13 @@ for (i in 1:NumberOfSims){
   # generate z1 (so generate it's x and y coordinates)
   z1<-cbind(runif(1,0,a),runif(1,0,b))
   # generate z2 (likewise)
-
+  z2 <- cbind(runif(1,0,a), runif(1,0,b))
 
   # Use Pythagoras' theorem to find the distance between them
-
+  d <- sqrt ((z1[1]-z2[1])^2 + (z1[2]-z2[2])^2)
   # Add the distance to the variable Distance
+  Distance <- Distance + d
 }
-
 # Divide Distance by NumberOfSims to calculate the average distance we observed across all sims
 AverageDistance<-Distance/NumberOfSims
 ```
